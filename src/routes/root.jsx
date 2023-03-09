@@ -7,8 +7,7 @@ import AppHeader from "../components/Header";
 
 export async function loader() {
   const settings = await appApi.getSettings();
-
-  return { settings: {}};
+  return { settings};
 }
 
 
